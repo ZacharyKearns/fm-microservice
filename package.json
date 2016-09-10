@@ -1,7 +1,7 @@
 {
-  "name": "timestamp",
+  "name": "ImageSearchAbstractionLayer",
   "version": "1.0.0",
-  "description": "A timestamp microservice",
+  "description": "An image search abstraction layer",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -9,10 +9,7 @@
   "author": "Zachary Kearns",
   "license": "ISC",
   "dependencies": {
-    "assert": "^1.4.1",
-    "chance": "^1.0.4",
-    "express": "^4.14.0",
-    "mongodb": "^2.2.8"
+    "express": "^4.14.0"
   },
   "engines": {
     "node": "4.4.3"
