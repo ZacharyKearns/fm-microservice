@@ -18,7 +18,7 @@ app.get('/favicon.ico', function(req, res) {
 })
 
 app.post('/uploads', upload.single('user-upload'), function(req, res, next) {
-  res.send(req.file.size)
+  res.send({ "size": req.file.size })
 })
 
 app.listen(app.get('port'), function() {
